@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro+Titling&display=swap');
+
+* {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    background-color: bisque;
+}
+
+.usuario a {
+    text-decoration: none;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
+.anios {
+    font-size: 15px;
+    color: rgb(98, 98, 95);
+}
+
+.comentario {
+    border: dashed 2px rgb(172, 84, 113);
+    width: 50%;
+    height: 300px;
+    
+}
+
+.principal{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span{
+    background-color: rgb(204, 194, 194);
+    margin-right: 20px;
+}
